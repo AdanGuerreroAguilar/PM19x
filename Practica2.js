@@ -1,13 +1,19 @@
-/*const persona = {
-    nombre: "Adan Guerrero",
-    edad: 22,
-    ciudad: "Querétaro"
-  };
-  const { nombre, edad, ciudad } = persona;
-  console.log(`Me llamo ${nombre}, tengo ${edad} años y vivo en ${ciudad}.`);
- 
+const persona = {
+  nombre: "Ivan Isay",
+  edad: 37,
+  direccion: {
+    cidudad: "Querétaro", 
+    pais: "Mexico"
+  }
+};
 
-  ----------------
+const { nombre, edad, direccion } = persona;
+const { cidudad, pais } = direccion;
+
+console.log(`Me llamo ${nombre}, tengo ${edad} años, vivo en ${cidudad}, ${pais}.`);
+
+
+ /* ----------------
   Ejercicio b
 */
 /*const productos = [
@@ -24,7 +30,7 @@ console.log(nombresFiltrados);
 
 ----------------
 Ejercicio c
-*/
+
 const personas = [
   { nombre: "Ana", edad: 22 },
   { nombre: "Luis", edad: 35 },
@@ -44,5 +50,5 @@ const totalEdades = personas.reduce((acumulador, persona) => {
 
 console.log(`La suma total de las edades es: ${totalEdades}`);
 
-
+*/
 
